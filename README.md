@@ -1,6 +1,6 @@
-## Azure-Data-Engineering
+### Data Engineering on Azure
 This project demonstrates an end-to-end data engineering solution on Microsoft Azure, designed to handle the ingestion, transformation, and analysis of data from an on-premises SQL Server database to a comprehensive reporting platform in Power BI. The solution uses Azure Data Lake Storage Gen2, Azure Data Factory, Databricks, and Azure Synapse Analytics, with added security managed through Azure Key Vault.
-https://github.com/ShawonSimon/Azure-Data-Engineering/blob/main/screenshot/Ingestion.png
+
 ## Project Overview
 # Pipeline Components
 1. Self-Hosted Integration Runtime (SHIR):
