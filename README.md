@@ -29,3 +29,29 @@ This project demonstrates an end-to-end data engineering solution on Microsoft A
 7. Power BI:
 
     - Connects to Azure Synapse Analytics for data visualization and reporting, enabling insights and analysis of the ingested and transformed data.
+#Workflow
+1. Data Ingestion:
+   - Data is ingested from an on-premises SQL Server database using SHIR and ADF, moving data securely to Azure Data Lake Storage Gen2.
+2. Data Transformation:
+   - Data in the Bronze layer is cleansed and transformed into the Silver layer.
+   - Databricks processes the Silver data and produces a refined dataset in the Gold layer.
+3. Data Loading and Analytics:
+   - The transformed data from the Gold layer is loaded into Azure Synapse Analytics.
+   - Power BI accesses the data from Synapse to create interactive reports and visualizations.
+#Security
+   - Azure Key Vault ensures the security of sensitive credentials used in the pipeline, such as database passwords and access keys.
+#Conclusion
+This project demonstrates how to build a scalable and secure data engineering solution on Azure, using best practices in data storage, transformation, and analytics. It leverages SHIR for secure on-premises connectivity, data layer separation in Azure Data Lake, and integration with powerful analytics and visualization tools like Azure Synapse and Power BI.
+
+Many thanks to [Mr K. Talks Tech](https://www.youtube.com/@mr.ktalkstech) for one of the best tutorials about data engineering on Azure that I have Found.
+#Screenshots
+![image](https://github.com/user-attachments/assets/e2d44ea4-d024-486e-97fa-c4aab2203ca0)
+![image](https://github.com/user-attachments/assets/55aea91f-2329-47b8-b138-94103443f34e)
+![image](https://github.com/user-attachments/assets/7ae2e8f0-5196-4229-a80b-739e3cc89851)
+![image](https://github.com/user-attachments/assets/e5293061-7f42-4dd3-b629-484eebb8450c)
+![image](https://github.com/user-attachments/assets/4a41b649-ef7d-414a-82a1-d04f746770b2)
+
+
+
+
+
