@@ -44,7 +44,9 @@ This project demonstrates an end-to-end data engineering solution on Microsoft A
 This project demonstrates how to build a scalable and secure data engineering solution on Azure, using best practices in data storage, transformation, and analytics. It leverages SHIR for secure on-premises connectivity, data layer separation in Azure Data Lake, and integration with powerful analytics and visualization tools like Azure Synapse and Power BI.
 
 Many thanks to [Mr K. Talks Tech](https://www.youtube.com/@mr.ktalkstech) for one of the best tutorials about data engineering on Azure that I have Found.
+
 #Screenshots
+
 ![image](https://github.com/user-attachments/assets/e2d44ea4-d024-486e-97fa-c4aab2203ca0)
 ![image](https://github.com/user-attachments/assets/55aea91f-2329-47b8-b138-94103443f34e)
 ![image](https://github.com/user-attachments/assets/7ae2e8f0-5196-4229-a80b-739e3cc89851)
